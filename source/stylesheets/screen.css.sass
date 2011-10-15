@@ -20,6 +20,7 @@
 // * remember to uncomment "require 'ninesixty'" in config.rb 
 // * and "gem 'compass-960-plugin'" in the Gemfile!
 @import "960/grid"
+@import "blueprint"
 
 // Susy Grid System:
 // * remember to uncomment "require 'susy'" in config.rb 
@@ -31,22 +32,57 @@
 .container
   +grid-container
   +clearfix
+  color: #666
 
 header,
 footer
   +grid(12)
+  +clearfix
 
 header
+  margin: 10px 0 30px
   .image-container
     +grid(10)
     +alpha
-  nav
-    +grid(2)
-    +omega
+
+nav
+  +grid(2)
+  +omega
+  font-size: 1.2em
+  ol
+    margin-top: 50px
+  li
+    padding: 10px
+  a
+    text-decoration: none
+    color: #999
+    +link-colors(#999, #999, #999, #999, #999)
+    &:hover
+      text-decoration: underline
+    &.current
+      color: #666
+
+#main-content
+  clear: both
+
 .about
   #main-content
     +grid(6)
     +grid-suffix(6)
+
+.gallery-navigation
+  list-style: none
+  +horizontal-list
+  text-align: center
+  img
+    display: block
+    margin: 0 auto
+
+.news
+  #main-content
+    +grid(8)
+    +grid-prefix(2)
+    +grid-suffix(2)
 
 // These imports should remain below the bulk of the stylesheet so they can override correctly.
 @import "partials/h5bp/nonsemantichelpers", "partials/h5bp/mediaqueries"
