@@ -37,15 +37,14 @@
     -# For optimal performance, use a custom Modernizr build: www.modernizr.com/download/
     %script{:src => "/javascripts/libs/modernizr-2.0.6.min.js"}
 
-  %body{:class => "#{@bodyclass}"}
+  %body{:class => "#{@title.parameterize}"}
     .container
-      = partial "partials/header"
+      =partial "partials/header"
       #main-content{:role => "main"}
 
         = yield
 
-      %footer
-        %p &copy; #{copyright_years(2011)} MiddlemanBoostrapUser
+      =partial "partials/footer"
 
     -# JavaScript at the bottom for fast page loading
 
