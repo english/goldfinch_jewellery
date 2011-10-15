@@ -1,13 +1,6 @@
 links:
-- text: Home
-  url:  /
-- text: About
-  url:  /about/
-- text: Gallery
-  url:  /gallery/
-- text: News
-  url:  /news/
-- text: Contact
-  url:  /contact/
-- text: Links
-  url:  /links/
+- About
+- Gallery
+- News
+- Contact
+- Links

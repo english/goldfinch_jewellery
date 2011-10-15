@@ -1,7 +1,7 @@
-%header 
-  = image_tag("images/header-#{@title.parameterize}.jpg")
+%header
+  =image_tag("#{@title.parameterize}_title.jpg")
   %nav
     %ol
       -data.menu.links.each do |link|
-        = link_to link.text, link.url
-  %h1= @title
+        =link_to link, url(link), :class => current?(@title, link)
+      -
