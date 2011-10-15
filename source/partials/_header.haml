@@ -1,7 +1,9 @@
 %header
-  =image_tag("#{@title.parameterize}_title.jpg")
+  .image-container
+    =image_tag("#{@title.parameterize}_title.jpg")
   %nav
     %ol
       -data.menu.links.each do |link|
-        =link_to link, url(link), :class => current?(@title, link)
+        %li
+          =link_to link, url(link), :class => current?(@title, link)
       -
