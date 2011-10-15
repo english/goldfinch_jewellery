@@ -30,6 +30,9 @@ require 'coffee-filter'
 # Automatic image dimensions on image_tag helper
 activate :automatic_image_sizes
 
+# Use extensionless urls
+activate :directory_indexes
+
 ###
 # Page command
 ###
@@ -107,7 +110,4 @@ configure :build do
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
-
-  # Use extensionless urls
-  activate :directory_indexes
 end
