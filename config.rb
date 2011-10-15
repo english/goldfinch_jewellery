@@ -67,6 +67,14 @@ helpers do
       start_year.to_s + '-' + end_year.to_s
     end
   end
+
+  def current?(title, link)
+    ('current' if title == link)
+  end
+
+  def url(link)
+    link == "About" ? '/' : "/#{link.parameterize}/"
+  end
 end
 
 # Change the CSS directory
