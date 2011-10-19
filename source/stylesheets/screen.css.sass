@@ -31,6 +31,7 @@
 
 body
   font: 16px/1.5 "Times New Roman", Times, serif
+  padding-bottom: 3em
 
 .container
   +grid-container
@@ -104,6 +105,18 @@ nav
     +replace-text('award_col_button.jpg', 100%, 0)
   #press
     +replace-text('press_col_button.jpg', 100%, 0)
+
+.contact
+  .map
+    float: left
+  .phone
+    color: #99CC33
+  a
+    text-decoration: none
+    color: #999
+    +link-colors(#999, #999, #999, #999, #999)
+    &:hover
+      text-decoration: underline
 
 // These imports should remain below the bulk of the stylesheet so they can override correctly.
 @import "partials/h5bp/nonsemantichelpers", "partials/h5bp/mediaqueries"
