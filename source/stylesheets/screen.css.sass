@@ -29,6 +29,18 @@
 
 // Your own styles go here.
 
+body
+  font-family: "Times New Roman", Times, serif
+  font-size: 100%
+  // 16x1.125=18px
+  line-height: 1.125em
+
+p
+  // 16x0.875=14px
+  font-size: 0.875em
+  // 14x1.286=18px
+  margin: 1.286em 0
+
 .container
   +grid-container
   +clearfix
@@ -70,13 +82,21 @@ nav
     +grid(6)
     +grid-suffix(6)
 
+.gallery
+  #main-content
+    +grid(12)
+    p
+      +grid(6)
+      +alpha
+      padding-top: 80px
+      text-align: right
+
 .gallery-navigation
   list-style: none
-  +horizontal-list
-  text-align: center
-  img
-    display: block
-    margin: 0 auto
+  margin: 0
+  padding: 0
+  +grid(6)
+  +omega
 
 .news
   #main-content
