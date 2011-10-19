@@ -30,16 +30,7 @@
 // Your own styles go here.
 
 body
-  font-family: "Times New Roman", Times, serif
-  font-size: 100%
-  // 16x1.125=18px
-  line-height: 1.125em
-
-p
-  // 16x0.875=14px
-  font-size: 0.875em
-  // 14x1.286=18px
-  margin: 1.286em 0
+  font: 16px/1.5 "Times New Roman", Times, serif
 
 .container
   +grid-container
@@ -60,11 +51,11 @@ header
 nav
   +grid(2)
   +omega
-  font-size: 1.2em
+  font-family: serif
   ol
     margin-top: 50px
   li
-    padding: 10px
+    padding: 8px
   a
     text-decoration: none
     color: #999
@@ -103,6 +94,16 @@ nav
     +grid(8)
     +grid-prefix(2)
     +grid-suffix(2)
+    h2
+      height: 47px
+  #stockists
+    +replace-text('stock_col_button.jpg', 100%, 0)
+  #events_and_exhibitions
+    +replace-text('event_col_button.jpg', 100%, 0)
+  #awards
+    +replace-text('award_col_button.jpg', 100%, 0)
+  #press
+    +replace-text('press_col_button.jpg', 100%, 0)
 
 // These imports should remain below the bulk of the stylesheet so they can override correctly.
 @import "partials/h5bp/nonsemantichelpers", "partials/h5bp/mediaqueries"
