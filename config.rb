@@ -111,3 +111,21 @@ configure :build do
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end
+
+Dir.glob "source/gallery/*" do |gallery|
+  if File.directory? gallery and not %w(. ..).include? gallery
+    gallery_items = []
+    Dir.glob "#{gallery}/*.jpg" do |img|
+      gallery_item = {:image => img}
+      markdown = "#{File.basename(img)}.markdown}"
+      if File.exists? markdown
+        gallery_item[:description] = Redcarpet.new(File.read(markdown)).to_html.html_safe
+      end
+      gallery_items << gallery_item
+    end
+    page "/gallery/#{gallery}.html", :proxy => "/gallery/template.html.haml" do
+      @title = "Gallery"
+      @gallery_items = gallery_items
+    end
+  end
+end
