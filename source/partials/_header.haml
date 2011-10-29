@@ -4,5 +4,5 @@
   %nav
     %ol
       -for link in data.menu.links.each
-        %li
-          =link_to link, url(link), :class => current?(@title, link)
+        %li{:class => current?(@title, link)}
+          =link_to link, url(link)
