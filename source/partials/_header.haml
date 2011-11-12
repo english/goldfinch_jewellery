@@ -1,6 +1,7 @@
 %header
   .image-container
-    =image_tag("#{@header_image}_title.jpg")
+    %a(href="/")
+      =image_tag("#{@header_image}_title.jpg")
   %nav
     %ol
       -for link in data.menu.links.each
