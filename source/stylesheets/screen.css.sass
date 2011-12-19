@@ -91,18 +91,46 @@ nav
     +grid(6)
     +omega
 
-.main-gallery
-  p
-    +grid(6)
-    +alpha
-    padding-top: 80px
-    text-align: right
+body.gallery-index
+  .galleries
+    position: relative
+    height: 700px
+  .gallery
+    position: absolute
+  h3
+    font-size: 1em
+    margin: 0
+    padding: 0
 
-.gallery
+  @each $gallery in weather, birds, peace-doves, commissions, branches, woodlands
+    .#{$gallery}
+      +replace-text-with-dimensions('../images/gallery/#{$gallery}.jpg', 0, 0)
+
+  .peace-doves
+    left: 50px
+    top: 20px
+  .weather
+    top: 0
+    left: 400px
+  .birds
+    top: -30px
+    right: 50px
+  .commissions
+    top: 350px
+    left: 0
+  .branches
+    top: 200px
+    left: 300px
+  .woodlands
+    top: 250px
+    right: 0
+
+body.gallery
   .gallery-images
     +grid(6)
     +alpha
     +grid-prefix(2)
+    +grid-suffix(4)
     li
       +grid(6)
       +alpha

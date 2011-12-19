@@ -4,6 +4,6 @@
       =image_tag("#{@header_image}_title.jpg")
   %nav
     %ol
-      -for link in data.menu.links.each
+      -for link in data.menu.links
         %li{:class => current?(@title, link)}
           =link_to link, url(link)
