@@ -110,3 +110,7 @@ configure :build do
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end
+
+# Use haml for layout template
+set :markdown, :layout_engine => :haml
+

@@ -1,0 +1,52 @@
+---
+title: Latest News
+header_image: news
+body_class: news
+---
+
+## Stockists
+'Supplier' - Red Barn Gallery. Melkinthorpe, Penrith, Cumbria, CA10 2DR.
+Tel 01931 712 767  
+<info@redbarngallery.co.uk> - <http://www.redbarngallery.co.uk>
+
+## Events and Exhibitions
+'Exhibition Six 10' at Red Barn Gallery, opening preview on Sat 6th Nov
+from 2 - 4 pm.
+
+Bath Artists Studio 'Christmas Arts Supermarket'. Private view 3rd Dec,
+6 - 9 pm. Open 4th and 5th December, 11 am - 5 pm.
+
+'Bath Artists' Studios,  
+The Old Malthouse,  
+Comfortable place,  
+Upper Bristol Rd,  
+Bath BA1 3AJ  
+<http://www.bathartistsstudios.co.uk>
+
+'Exhibition five 10' at Red Barn Gallery, opening preview on Saturday 18th
+Sep 6-8pm. runs to 2nd Nov. Introducing Goldfinch Jewellery's first
+collection there.
+
+## Awards
+Goldsmiths' Craft and Design Council. Craftsmanship and Design Awards 2011.
+'Commended' for Fashion Jewellery Production.
+
+Goldsmiths’ Craft and Design Council. Craftsmanship and Design Awards
+2005. ‘Commended’ for 3D production jewellery.
+
+Goldsmiths’ Council. Craftsmanship and Design Awards 2003. ‘Silver’ for
+finished pieces.
+
+British Jewellers’ Association, 2002, Certificate of Merit for Higher National
+Diploma in Jewellery and Silversmithing, 2nd year student – 1st prize.
+
+B.J.A. 2001, Commendation Award for H.N.D. in Jewellery and Silversmithing, 1st
+year student.
+
+B.J.A. 2001, Awarded the travel bursary.
+
+Arthur Price of England Design Competition 2001, 1st prize for designing
+a bowl, which was produced and sold by the Arthur Price Company.
+
+## Press
+[![The Guide Magazine](/images/the_guide.jpg)](/images/the_guide.jpg)
