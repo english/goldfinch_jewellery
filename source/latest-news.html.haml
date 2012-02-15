@@ -1,5 +1,8 @@
-- @title = "Latest News"
-- @header_image = @body_class = "news"
+---
+title: Latest News
+header_image: news
+body_class: news
+---
 
 %section
   :markdown
@@ -8,10 +11,7 @@
 
     'Supplier' - Red Barn Gallery. Melkinthorpe, Penrith, Cumbria, CA10 2DR.
     Tel 01931 712 767  
-    [info@redbarngallery.co.uk][1] - [www.redbarngallery.co.uk][2]
-
-    [1]: mailto:info@redbarngallery.co.uk
-    [2]: http://www.redbarngallery.co.uk
+    <info@redbarngallery.co.uk> - <http://www.redbarngallery.co.uk>
 
 %section
   :markdown
@@ -29,13 +29,11 @@
     Comfortable place,  
     Upper Bristol Rd,  
     Bath BA1 3AJ  
-    [www.bathartistsstudios.co.uk][1]
+    <http://www.bathartistsstudios.co.uk>
 
     'Exhibition five 10' at Red Barn Gallery, opening preview on Saturday 18th
     Sep 6-8pm. runs to 2nd Nov. Introducing Goldfinch Jewellery's first
     collection there.
-
-    [1]: [www.bathartistsstudios.co.uk]
 
 %section
   :markdown
@@ -63,5 +61,8 @@
     a bowl, which was produced and sold by the Arthur Price Company.
 
 %section
-  %h2#press Press
-  =link_to image_tag('the_guide.jpg', :alt => 'The Guide Magazine'), "/images/the_guide.jpg"
+  :markdown
+
+    ## Press
+
+    [![The Guide Magazine](/images/the_guide.jpg)](/images/the_guide.jpg)

@@ -71,7 +71,7 @@ helpers do
   end
 
   def current?(title, link)
-    'current' if @anchor == link or @title == link
+    'current' if data.page.anchor == link or data.page.title == link
   end
 
   def url(link)

@@ -1,9 +1,9 @@
 %header
   .image-container
     %a(href="/")
-      =image_tag("#{@header_image}_title.jpg")
+      =image_tag("#{data.page.header_image}_title.jpg")
   %nav
     %ol
       -for link in data.menu.links
-        %li{:class => current?(@title, link)}
+        %li{:class => current?(data.page.title, link)}
           =link_to link, url(link)
