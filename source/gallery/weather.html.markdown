@@ -6,8 +6,6 @@ body_class: gallery woodlands
 anchor: Gallery
 ---
 
-%p
-  %a(href="/gallery/")Back to gallery
+[Back to gallery](/gallery/)
 
-%p
-  Weather gallery coming soon...
+Weather gallery coming soon...
