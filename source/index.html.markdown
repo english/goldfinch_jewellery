@@ -15,4 +15,4 @@ Raised in the Howgill Fells, which nestle between the Lake District and
 Yorkshire Dales, it is not surprising that the natural world provides the
 inspiration for much of her work.
 
-Ramsbottom 2011
+Ramsbottom 2012
