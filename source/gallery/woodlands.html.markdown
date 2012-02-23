@@ -6,8 +6,6 @@ body_class: gallery woodlands
 anchor: Gallery
 ---
 
-[Back to gallery](/gallery/)
-
 *   ![](/images/gallery/DSCF0159-copy.jpg)
     Silver acorn with enamel oak leaf pendant
 

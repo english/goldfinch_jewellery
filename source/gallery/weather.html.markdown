@@ -6,6 +6,6 @@ body_class: gallery woodlands
 anchor: Gallery
 ---
 
-[Back to gallery](/gallery/)
-
 Weather gallery coming soon...
+
+[Back to gallery](/gallery/)

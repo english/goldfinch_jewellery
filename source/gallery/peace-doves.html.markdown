@@ -6,8 +6,6 @@ body_class: gallery peace-doves
 anchor: Gallery
 ---
 
-[Back to gallery](/gallery/)
-
 *   ![](/images/gallery/g3.1.jpg)
     Large sterling silver and cultured pearl dove pendant on hand platted
     linen. Small sterling silver and cultured pearl brooch

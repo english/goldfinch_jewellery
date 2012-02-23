@@ -6,8 +6,6 @@ body_class: gallery branches
 anchor: Gallery
 ---
 
-[Back to gallery](/gallery/)
-
 *   ![](/images/gallery/g4.1.jpg)
     Sterling silver, wood, resin and suede brooch.
 

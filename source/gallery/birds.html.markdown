@@ -5,8 +5,6 @@ body_class: gallery birds
 anchor: Gallery
 ---
 
-[Back to gallery](/gallery/)
-
 *   ![g1](/images/gallery/g1.1.jpg)
 
 *   ![bird22](/images/gallery/rev_bird22.jpg)

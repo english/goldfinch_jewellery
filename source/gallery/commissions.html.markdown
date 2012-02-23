@@ -6,8 +6,6 @@ body_class: gallery commissions
 anchor: Gallery
 ---
 
-[Back to gallery](/gallery/)
-
 *   ![](/images/gallery/g5.1.jpg)
     Cushion shaped green Tourmaline, recycled 18ct yellow gold and sterling
     silver ring.
