@@ -1,12 +1,16 @@
 .contact
   .main-content
+    +grid(5)
+    +grid-prefix(6)
+    +grid-suffix(1)
+    position: relative
+    min-height: 400px
     img
-      float: left
-    .phone
-      color: #99CC33
+      position: absolute
+      top: -125px
+      left: 110px
     a
       text-decoration: none
       color: #999
-      +link-colors(#999, #999, #999, #999, #999)
       &:hover
         text-decoration: underline

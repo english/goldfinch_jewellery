@@ -5,9 +5,7 @@ body_class: contact
 anchor: Contact
 ---
 
-![Map](/images/map.jpg)
-<lucy@goldfinchjewellery.co.uk>  
-<span class="phone">Lucy Ramsbottom: 07771623596</span>
+![Map](/images/map.png)
 
 If you would like more information or are interested in commissioning a piece
 of work please contact Lucy Ramsbottom
