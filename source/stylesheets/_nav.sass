@@ -1,0 +1,21 @@
+nav
+  position: absolute
+  right: 0
+  font-family: serif
+  ol
+    margin-top: 50px
+  li
+    list-style:
+      type: circle
+      position: inside
+    padding: 8px
+    &.current
+      list-style-type: disc
+      a
+        color: #666
+  a
+    text-decoration: none
+    color: #999
+    +link-colors(#999, #999, #999, #999, #999)
+    &:hover
+      text-decoration: underline

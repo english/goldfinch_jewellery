@@ -23,121 +23,12 @@ header
     +grid(10)
     +alpha
 
-nav
-  position: absolute
-  right: 0
-  font-family: serif
-  ol
-    margin-top: 50px
-  li
-    list-style:
-      type: circle
-      position: inside
-    padding: 8px
-    &.current
-      list-style-type: disc
-      a
-        color: #666
-  a
-    text-decoration: none
-    color: #999
-    +link-colors(#999, #999, #999, #999, #999)
-    &:hover
-      text-decoration: underline
-
 .main-content
   clear: both
 
-.about
-  .main-content
-    +grid(6)
-    +grid-suffix(6)
-    position: relative
-
-.gallery
-  .main-content
-    +grid(12)
-  ul
-    list-style: none
-    margin: 0
-    padding: 0
-    +grid(6)
-    +omega
-
-body.gallery-index
-  .galleries
-    position: relative
-    height: 700px
-  .gallery
-    position: absolute
-  h3
-    font-size: 1em
-    margin: 0
-    padding: 0
-
-  @each $gallery in weather, birds, peace-doves, commissions, branches, woodlands
-    .#{$gallery}
-      +replace-text-with-dimensions('../images/gallery/#{$gallery}.jpg', 0, 0)
-
-  .peace-doves
-    left: 50px
-    top: 20px
-  .weather
-    top: 0
-    left: 400px
-  .birds
-    top: -30px
-    right: 50px
-  .commissions
-    top: 350px
-    left: 0
-  .branches
-    top: 200px
-    left: 300px
-  .woodlands
-    top: 250px
-    right: 0
-
-body.gallery
-  .main-content
-    ul
-      +grid(6)
-      +alpha
-      +grid-prefix(2)
-      +grid-suffix(4)
-    li
-      +grid(6)
-      +alpha
-      +omega
-    img
-      padding-left: 5px
-      float: right
-
-.news
-  .main-content
-    +grid(8)
-    +grid-prefix(2)
-    +grid-suffix(2)
-    h2
-      height: 47px
-  #stockists
-    +replace-text('stock_col_button.jpg', 100%, 0)
-  #events_and_exhibitions
-    +replace-text('event_col_button.jpg', 100%, 0)
-  #awards
-    +replace-text('award_col_button.jpg', 100%, 0)
-  #press
-    +replace-text('press_col_button.jpg', 100%, 0)
-
-.contact
-  .main-content
-    img
-      float: left
-    .phone
-      color: #99CC33
-    a
-      text-decoration: none
-      color: #999
-      +link-colors(#999, #999, #999, #999, #999)
-      &:hover
-        text-decoration: underline
+@import nav
+@import about
+@import gallery
+@import gallery/index
+@import news
+@import contact
