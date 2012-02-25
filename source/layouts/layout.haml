@@ -1,9 +1,10 @@
 !!! 5
 
-/[if lt IE 7 ]         <html class="no-js ie6" lang="en">
-/[if IE 7 ]            <html class="no-js ie7" lang="en">
-/[if IE 8 ]            <html class="no-js ie8" lang="en">
-<!--[if gt IE 8]><!-->
+/[if lt IE 7 ] <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="en">
+/[if IE 7 ]    <html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="en">
+/[if IE 8 ]    <html class="no-js lt-ie10 lt-ie9" lang="en">
+/[if IE 9 ]    <html class="no-js lt-ie10" lang="en">
+<!--[if gt IE 9]><!-->
 %html{:class => "no-js", :lang => "en"}
   <!--<![endif]-->
 
@@ -17,6 +18,7 @@
 
     %link{:rel => "stylesheet", :href => "/stylesheets/screen.css"}
     %script{:src => "/javascripts/libs/modernizr-2.0.6.min.js"}
+    %script{:src => "/javascripts/libs/selectivizr.min.js"}
 
   %body{:class => "#{data.page.body_class}"}
     .container
