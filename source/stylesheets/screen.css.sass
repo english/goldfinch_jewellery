@@ -46,17 +46,17 @@ nav
     &:hover
       text-decoration: underline
 
-#main-content
+.main-content
   clear: both
 
 .about
-  #main-content
+  .main-content
     +grid(6)
     +grid-suffix(6)
     position: relative
 
 .gallery
-  #main-content
+  .main-content
     +grid(12)
   ul
     list-style: none
@@ -100,7 +100,7 @@ body.gallery-index
     right: 0
 
 body.gallery
-  #main-content
+  .main-content
     ul
       +grid(6)
       +alpha
@@ -115,7 +115,7 @@ body.gallery
       float: right
 
 .news
-  #main-content
+  .main-content
     +grid(8)
     +grid-prefix(2)
     +grid-suffix(2)
@@ -131,7 +131,7 @@ body.gallery
     +replace-text('press_col_button.jpg', 100%, 0)
 
 .contact
-  #main-content
+  .main-content
     img
       float: left
     .phone
