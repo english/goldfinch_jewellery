@@ -10,7 +10,7 @@ anchor: Contact
 If you would like more information or are interested in commissioning a piece
 of work please contact Lucy Ramsbottom.
 
-**Tel:** 0771623596  
+**Tel:** 07771623596  
 **Email:** <lucy@goldfinchjewellery.co.uk>
 
 **Post:**  
