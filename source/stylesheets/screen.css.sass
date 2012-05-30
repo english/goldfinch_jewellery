@@ -11,6 +11,13 @@ body
   color: #666
   overflow: hidden
 
+a
+  +link-colors(#666, #666, #666, #666, #666)
+  text-decoration: none
+
+  &:hover
+    text-decoration: underline
+
 header,
 footer
   +grid(12)
@@ -32,4 +39,3 @@ header
 @import gallery/index
 @import news
 @import contact
-@import links
