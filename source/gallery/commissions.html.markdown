@@ -13,4 +13,7 @@ anchor: Gallery
 * ![](/images/gallery/g5.2.jpg)
   Diamond and recycled 18ct yellow gold ring.
 
+* ![Dragonfly Brooch](/images/gallery/commissions/dragonfly.jpg)
+  Fine silver, sterling silver and Peridot dragonfly brooch.
+
 [Back to gallery](/gallery/)
