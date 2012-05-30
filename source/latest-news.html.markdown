@@ -10,22 +10,14 @@ Tel 01931 712 767
 <info@redbarngallery.co.uk> - <http://www.redbarngallery.co.uk>
 
 ## Events and Exhibitions
-'Exhibition Six 10' at Red Barn Gallery, opening preview on Sat 6th Nov
-from 2 - 4 pm.
+[![Yew Tree Barn Workshop](/images/workshop.thumb.jpg)](/images/workshop.jpg)
+New workshop now open to the public at:  
+Yew Tree Barn  
+Low Newton  
+Cumbria
 
-Bath Artists Studio 'Christmas Arts Supermarket'. Private view 3rd Dec,
-6 - 9 pm. Open 4th and 5th December, 11 am - 5 pm.
-
-'Bath Artists' Studios,  
-The Old Malthouse,  
-Comfortable place,  
-Upper Bristol Rd,  
-Bath BA1 3AJ  
-<http://www.bathartistsstudios.co.uk>
-
-'Exhibition five 10' at Red Barn Gallery, opening preview on Saturday 18th
-Sep 6-8pm. runs to 2nd Nov. Introducing Goldfinch Jewellery's first
-collection there.
+Craftsmanship and Design Awards 2011 Exhibition  
+Goldsmiths' Hall, Foster Lane, London, EC2V 6BN. March 2011
 
 ## Awards
 Goldsmiths' Craft and Design Council. Craftsmanship and Design Awards 2011.
