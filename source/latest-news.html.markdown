@@ -12,9 +12,13 @@ Tel 01931 712 767
 ## Events and Exhibitions
 [![Yew Tree Barn Workshop](/images/workshop.thumb.jpg)](/images/workshop.jpg)
 New workshop now open to the public at:  
+
 Yew Tree Barn  
 Low Newton  
 Cumbria
+
+<div class="clear">
+</div>
 
 [Craftsmanship and Design Awards](http://www.craftanddesigncouncil.org.uk/awards.html) 2011 Exhibition  
 Goldsmiths' Hall, Foster Lane, London, EC2V 6BN. March 2011
