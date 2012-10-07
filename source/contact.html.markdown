@@ -12,10 +12,3 @@ of work please contact Lucy Ramsbottom.
 
 **Tel:** 07771623596  
 **Email:** <lucy@goldfinchjewellery.co.uk>
-
-**Post:**  
-Lucy Ramsbottom  
-Yew Tree Barn  
-Low Newton  
-Cumbria  
-LA11 6JP
