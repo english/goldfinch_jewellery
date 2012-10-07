@@ -10,18 +10,23 @@ Tel 01931 712 767
 <info@redbarngallery.co.uk> - <http://www.redbarngallery.co.uk>
 
 ## Events and Exhibitions
-[![Yew Tree Barn Workshop](/images/workshop.thumb.jpg)](/images/workshop.jpg)
-New workshop now open to the public at:  
 
-Yew Tree Barn  
-Low Newton  
-Cumbria
-
-<div class="clear">
-</div>
-
-[Craftsmanship and Design Awards](http://www.craftanddesigncouncil.org.uk/awards.html) 2011 Exhibition  
+[Craftsmanship and Design
+Awards](http://www.craftanddesigncouncil.org.uk/awards.html) 2011 Exhibition
 Goldsmiths' Hall, Foster Lane, London, EC2V 6BN. March 2011
+
+'Spirit' exhibition at Heart Gallery, The Arts Centre, Hebden Bridge, North
+Yorkshire. 23rd September - 31st October 2012.
+
+Great Northern Contemporary Craft Fair 2012 in Hardman Square, Spinningfields,
+Manchester. 4th - 7th October.
+[greatnorthernevents.co.uk](http://www.greatnorthernevents.co.uk)
+
+Stockport Designer Crafts Show 2012 at Stockport Art Gallery,Wellington Road
+South, Stockport. 24th November - 27th January.
+
+Christmas Craft Market at The Brewery Arts Centre, Kendal, Cumbria.  30th
+November - 2nd December 2012.
 
 ## Awards
 Goldsmiths' Craft and Design Council. Craftsmanship and Design Awards 2011.
