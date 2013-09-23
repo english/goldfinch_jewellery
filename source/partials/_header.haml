@@ -7,3 +7,5 @@
       -for link in data.menu.links
         %li{:class => current?(data.page.title, link)}
           =link_to link, url(link)
+      %li= link_to 'Shop',     'http://www.etsy.com/uk/shop/GoldfinchJewellery'
+      %li= link_to 'Facebook', 'https://www.facebook.com/GoldfinchJewelleryDesign'
